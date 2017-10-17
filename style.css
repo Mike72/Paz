@@ -8,6 +8,9 @@
   .menu{
       list-style: none;
   }
+  ul{
+      padding: 0;
+  }
   .dropdown, .navbottom li {
     display: inline;
     padding-right: 10px;
