@@ -19,7 +19,7 @@
       color: white;
       padding: 5px;
   }
-  .menu > li > a:hover{
+  .menu > li > a:hover , .navbottom > li> a:hover{
     text-decoration:underline;
     color:#4C4CAC;
   }
