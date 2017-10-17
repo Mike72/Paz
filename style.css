@@ -8,7 +8,7 @@
   .menu{
       list-style: none;
   }
-    li {
+  .dropdown, .navbottom li {
     display: inline;
     padding-right: 10px;
     padding-left: 5px;
