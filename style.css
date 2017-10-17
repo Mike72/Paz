@@ -27,3 +27,14 @@
   .dropdown {
     position: relative;
   }
+  .dropdown:hover .dropdown-content{
+      display: block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: gray;
+    color: white;
+    padding:15px; 
+  }
