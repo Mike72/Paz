@@ -24,4 +24,6 @@
       background-color: gray;
       text-align: center;
   }
-  
+  .dropdown {
+    position: relative;
+  }
