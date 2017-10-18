@@ -2,8 +2,10 @@
     box-sizing: border-box;
   }
   body{
-      width: 1200px;
-      margin: auto;
+      direction: rtl;
+      text-align: right;
+     margin: 0;
+     padding: 0;
   }
   .menu{
       list-style: none;
@@ -30,6 +32,7 @@
       padding: 10px;
       background-color: gray;
       text-align: center;
+      top: 0;
   }
   .dropdown {
     position: relative;
@@ -55,6 +58,14 @@
     padding: 0;
     text-align: center;
     background-color: gray;
-    width: 1200px;
+    width: 1400px;
     margin: auto;
+  }
+  .navigation-menu{
+    position: relative;
+  }
+  .toplogo{
+    position: absolute;
+    right: 30px;
+
   }
