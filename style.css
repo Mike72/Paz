@@ -24,7 +24,7 @@
       color: white;
       padding: 5px;
   }
-  .menu > li > a:hover , .navbottom > li> a:hover{
+  a:hover{
     text-decoration:underline;
     color:#4C4CAC;
   }
@@ -72,7 +72,7 @@
   }
   .firstline{
     margin: auto;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     width: 1200px;
     height: 400px;
   /* position: relative;*/
@@ -97,3 +97,17 @@
   .bg-1{
      border-radius:0 0 25px;
   }
+  .bottom-picture{
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+    border: 1px solid black;
+    height: 87px;
+    width: 250px;
+    border-radius:0 0 25px;
+    background-color:rgba(192,192,192,0.7);
+  }
+  p{
+    margin: 5px;
+  }
+  
