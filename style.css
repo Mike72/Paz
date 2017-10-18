@@ -53,6 +53,11 @@
     list-style:none;
     padding:0;
   }
+  .dropmenu >li> a:hover{
+    background-color: white;
+    text-decoration:underline;
+    color:#4C4CAC;
+  }
   .footer {
     position: fixed;
     bottom: 0;
