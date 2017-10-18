@@ -47,6 +47,7 @@
     background-color: gray;
     color: white;
     padding:15px; 
+    z-index: 5;
   }
   .dropmenu{
     list-style:none;
@@ -74,21 +75,25 @@
     border: 1px solid black;
     width: 1200px;
     height: 400px;
-   position: relative;
+  /* position: relative;*/
    padding: 20px;
-
+  
   }
-  .bg-1{
+  .big-picture{
     position: relative;
     float: right;
+   /* width: 293px;*/
+    height: 355px;
     width: 30%;
-    top: 30px;
-    margin: 10px;
-    right: 5%;
-
+    margin: 10px; 
+    text-align: center;
+    
   }
- .bg-1::after{
+ .big-pictures::after{
     content:"";
     display:table;
     clear: both;
+  }
+  .bg-1{
+     border-radius:0 0 25px;
   }
