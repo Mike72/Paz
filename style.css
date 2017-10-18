@@ -121,3 +121,13 @@
     padding-left: 5px;
 
   }
+  .small-pic{
+    position: relative;
+    float: right;
+
+  }
+  .small-pic::after{
+    content:"";
+    display:table;
+    clear: both;
+  }
