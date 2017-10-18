@@ -69,3 +69,8 @@
     right: 30px;
 
   }
+  .bg-1{
+    position: relative;
+    float: right;
+    width: 33%;
+  }
