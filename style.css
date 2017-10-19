@@ -124,6 +124,10 @@
   .small-pic{
     position: relative;
     float: right;
+    height: 355px;
+    width: 30%;
+    margin: 10px; 
+    text-align: center;
 
   }
   .small-pic::after{
@@ -131,3 +135,16 @@
     display:table;
     clear: both;
   }
+ h3{
+   position: absolute;
+   top:5px;
+   right: 45px;
+   margin: 5px;
+  
+ }
+ .btma{
+   color: black;
+ }
+ .btma1{
+   color: blue;
+ }
