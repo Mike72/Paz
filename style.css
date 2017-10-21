@@ -187,7 +187,7 @@
   }
  h3{
    position: absolute;
-   top:5px;
+   top:10px;
    right: 45px;
    margin: 5px;
    font-family: Arial, Helvetica, sans-serif;
@@ -197,6 +197,34 @@
  /*.btma{
    color: black;
  }*/
+ #btma1{
+  position: absolute;
+  top: 170px;
+  color: blue;
+  left: 45px;
+  margin: 5px;
+  text-decoration: underline;
+ /* background: url(images\read_more_white.png) no-repeat left center;*/
+ 
+
+ }
  .btma1{
    color: blue;
+  /* display:inline-block;*/
+   /*position: absolute;*/
+   top: 70px;
+   right: 55px;
+   
  }
+ #map-menu li a{
+   text-decoration: underline;
+   display: block;
+ }
+ #map-btmp{
+   position: absolute;
+   list-style: none;
+   right: 65px;
+   top: 60px;
+
+ }
+
