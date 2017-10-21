@@ -31,6 +31,10 @@
     text-decoration:underline;
     color:#4C4CAC;
   }
+  .btmp > a:hover{
+    color: #4C4CAC !important;
+   /* background-color: red;*/
+  }
   .header{
       padding: 10px;
       background-color: gray;
@@ -171,7 +175,7 @@
   .slp{
     position: absolute;
     top: 55px;
-    right: 45px;
+    right: 20px;
     margin: 5px;
     width: 250px;
     height: 110px;
@@ -203,22 +207,21 @@
  #btma1{
   position: absolute;
   top: 170px;
-  color: blue;
+  color: grey;
   left: 45px;
   margin: 5px;
   text-decoration: underline;
  /* background: url(images\read_more_white.png) no-repeat left center;*/
- 
-
  }
+ 
  .btma1{
-   color: blue;
+   color: grey;
   /* display:inline-block;*/
    /*position: absolute;*/
    top: 70px;
-   right: 55px;
-   
+   right: 45px;
  }
+
  #map-menu li a{
    text-decoration: underline;
    display: block;
