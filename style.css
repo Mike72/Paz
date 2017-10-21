@@ -172,6 +172,12 @@
     margin: 5px;
     width: 250px;
     height: 110px;
+  }
+  #map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
 
   }
   .small-pic::after{
