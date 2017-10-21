@@ -2,8 +2,8 @@
     box-sizing: border-box;
   }
   body{
-      direction: rtl;
-      text-align: right;
+     direction: rtl;
+     text-align: right;
      margin: 0;
      padding: 0;
   }
@@ -78,10 +78,13 @@
     right: 30px;
 
   }
+  .rows{
+
+  }
   .firstline , .secondline{
     margin: auto;
    /* border: 1px solid black;*/
-    width: 1200px;
+    width: 1000px;
     height: 400px;
   /* position: relative;*/
    padding: 20px;
