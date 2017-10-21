@@ -155,8 +155,11 @@
     margin-left: 5px;
    /* padding-left:10px;*/
     padding: 0;
-  
-
+  }
+  #btma::after{
+    content:"";
+    display:table;
+    clear: both;
   }
   .small-pic{
     position: relative;
