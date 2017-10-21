@@ -160,6 +160,18 @@
     width: 30%;
     margin: 10px; 
     text-align: center;
+  }
+  .smlp{
+    height: 216px;
+    width: 300px;
+  }
+  .slp{
+    position: absolute;
+    top: 55px;
+    right: 45px;
+    margin: 5px;
+    width: 250px;
+    height: 110px;
 
   }
   .small-pic::after{
