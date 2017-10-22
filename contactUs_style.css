@@ -94,7 +94,7 @@
     position: relative;
     float: right;
     right: 250px;
-    top: 110px;
+    top: 90px;
     height: 355px;
     width: 30%;
     margin: 10px; 
@@ -104,7 +104,7 @@
     position: relative;
     float: right;
     right: 250px;
-    top: 110px;
+    top: 90px;
     height: 255px;
     width: 30%;
     margin: 10px; 
@@ -174,7 +174,7 @@
   .personal_data{
    display: inline-block;
   /* float: right; */
-   padding: 2px;
+   padding:3px;
    margin: 0;
    text-align: right;
   }
@@ -183,7 +183,9 @@
     width: 75px;
     text-align: right;
   }
-  
+textarea{
+  margin-top: 4px;
+}
  /* .first_name::after{
     content:"";
     display:table;
