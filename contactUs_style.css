@@ -165,10 +165,27 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: rgb(61, 60, 60);
-
   }
   p{
     display: block;
     margin: 0;
     padding: 0;
   }
+  .personal_data{
+   display: inline-block;
+  /* float: right; */
+   padding: 2px;
+   margin: 0;
+   text-align: right;
+  }
+  .personal_data > label{
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+  }
+  
+ /* .first_name::after{
+    content:"";
+    display:table;
+    clear: both;
+  }*/
