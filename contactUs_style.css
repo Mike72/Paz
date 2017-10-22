@@ -183,9 +183,9 @@
     width: 75px;
     text-align: right;
   }
-textarea{
+  textarea{
   margin-top: 4px;
-}
+  }
  /* .first_name::after{
     content:"";
     display:table;
